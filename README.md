@@ -7,8 +7,8 @@ A binary sentiment classification project using a real-world dataset of Steam ga
 ### 📖 Overview
 This project demonstrates a machine learning flow for binary text classification using NLP. It covers:
 - Data cleaning and preprocessing
-- Feature extraction using **BoW**, **TF-IDF**, and **Word2Vec**
-- Model training and evaluation (Logistic Regression, etc.)
+- Data transformation using **BoW**, **TF-IDF**, and **Word2Vec**
+- Model training and evaluation
 - Hyperparameter tuning
 - Threshold optimization for classification
 - Streamlit-based deployment for live inference
@@ -29,7 +29,7 @@ The task is to predict whether a Steam user review expresses **positive** or **n
 - nltk, gensim
 - matplotlib, seaborn
 - Streamlit (deployment)
-- joblib / pickle
+- json / pickle 
 
 ---
 
@@ -116,6 +116,3 @@ Access the deployed Streamlit app here:
 - Improve UI/UX of the Streamlit app
 
 ---
-
-### 📜 License
-[MIT License](LICENSE)
