@@ -5,7 +5,7 @@ A binary sentiment classification project using a real-world dataset of Steam ga
 ---
 
 ### 📖 Overview
-This project demonstrates a complete machine learning pipeline for binary text classification using NLP. It covers:
+This project demonstrates a machine learning flow for binary text classification using NLP. It covers:
 - Data cleaning and preprocessing
 - Feature extraction using **BoW**, **TF-IDF**, and **Word2Vec**
 - Model training and evaluation (Logistic Regression, etc.)
