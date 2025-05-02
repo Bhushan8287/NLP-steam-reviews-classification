@@ -1,0 +1,44 @@
+{
+    "split_from": "dtree_tfidf",
+    "accuracy": 0.7568,
+    "precision": 0.772488906817265,
+    "recall": 0.7460070120763537,
+    "f1_score": 0.7590170432025367,
+    "confusion_matrix": [
+        [
+            1869,
+            564
+        ],
+        [
+            652,
+            1915
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.7413724712415708,
+            "recall": 0.7681874229346486,
+            "f1-score": 0.7545417844166331,
+            "support": 2433.0
+        },
+        "1": {
+            "precision": 0.772488906817265,
+            "recall": 0.7460070120763537,
+            "f1-score": 0.7590170432025367,
+            "support": 2567.0
+        },
+        "accuracy": 0.7568,
+        "macro avg": {
+            "precision": 0.7569306890294178,
+            "recall": 0.7570972175055011,
+            "f1-score": 0.7567794138095849,
+            "support": 5000.0
+        },
+        "weighted avg": {
+            "precision": 0.7573476492661323,
+            "recall": 0.7568,
+            "f1-score": 0.7568393822773161,
+            "support": 5000.0
+        }
+    }
+}

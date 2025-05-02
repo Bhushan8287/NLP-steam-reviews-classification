@@ -1,0 +1,44 @@
+{
+    "split_from": "dtree_wordvec",
+    "accuracy": 0.6884,
+    "precision": 0.6984807167900273,
+    "recall": 0.6957702755141637,
+    "f1_score": 0.6971228615863142,
+    "confusion_matrix": [
+        [
+            1649,
+            774
+        ],
+        [
+            784,
+            1793
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.677764077270859,
+            "recall": 0.6805612876599257,
+            "f1-score": 0.679159802306425,
+            "support": 2423.0
+        },
+        "1": {
+            "precision": 0.6984807167900273,
+            "recall": 0.6957702755141637,
+            "f1-score": 0.6971228615863142,
+            "support": 2577.0
+        },
+        "accuracy": 0.6884,
+        "macro avg": {
+            "precision": 0.6881223970304431,
+            "recall": 0.6881657815870448,
+            "f1-score": 0.6881413319463696,
+            "support": 5000.0
+        },
+        "weighted avg": {
+            "precision": 0.6884414332790384,
+            "recall": 0.6884,
+            "f1-score": 0.6884179630592799,
+            "support": 5000.0
+        }
+    }
+}

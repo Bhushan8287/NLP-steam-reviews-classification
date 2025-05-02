@@ -1,0 +1,48 @@
+{
+    "Accuracy": 0.8376,
+    "Precision": 0.8258447827701448,
+    "Recall": 0.8663809894818855,
+    "F1 Score": 0.8456273764258554,
+    "Confusion Matrix": [
+        [
+            1964,
+            469
+        ],
+        [
+            343,
+            2224
+        ]
+    ],
+    "Classification Report": {
+        "0": {
+            "precision": 0.8513220632856524,
+            "recall": 0.8072338676531031,
+            "f1-score": 0.8286919831223628,
+            "support": 2433.0
+        },
+        "1": {
+            "precision": 0.8258447827701448,
+            "recall": 0.8663809894818855,
+            "f1-score": 0.8456273764258554,
+            "support": 2567.0
+        },
+        "accuracy": 0.8376,
+        "macro avg": {
+            "precision": 0.8385834230278986,
+            "recall": 0.8368074285674942,
+            "f1-score": 0.8371596797741091,
+            "support": 5000.0
+        },
+        "weighted avg": {
+            "precision": 0.8382420274689908,
+            "recall": 0.8376,
+            "f1-score": 0.8373866140443759,
+            "support": 5000.0
+        }
+    },
+    "Best Parameters": {
+        "C": 1,
+        "penalty": "l2",
+        "solver": "liblinear"
+    }
+}

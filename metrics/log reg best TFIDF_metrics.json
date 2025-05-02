@@ -1,0 +1,44 @@
+{
+    "split_from": "log reg best TFIDF",
+    "accuracy": 0.8374,
+    "precision": 0.825780089153046,
+    "recall": 0.8659914296844565,
+    "f1_score": 0.8454078722190531,
+    "confusion_matrix": [
+        [
+            1964,
+            469
+        ],
+        [
+            344,
+            2223
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.8509532062391681,
+            "recall": 0.8072338676531031,
+            "f1-score": 0.8285171904661464,
+            "support": 2433.0
+        },
+        "1": {
+            "precision": 0.825780089153046,
+            "recall": 0.8659914296844565,
+            "f1-score": 0.8454078722190531,
+            "support": 2567.0
+        },
+        "accuracy": 0.8374,
+        "macro avg": {
+            "precision": 0.8383666476961071,
+            "recall": 0.8366126486687798,
+            "f1-score": 0.8369625313425997,
+            "support": 5000.0
+        },
+        "weighted avg": {
+            "precision": 0.8380293279271531,
+            "recall": 0.8374,
+            "f1-score": 0.8371888664780887,
+            "support": 5000.0
+        }
+    }
+}
