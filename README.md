@@ -97,7 +97,7 @@ streamlit run app.py
 
 ### 🔗 Live Demo
 Access the deployed Streamlit app here:  
-👉 [Streamlit Cloud URL]()
+👉 https://nlp-steam-reviews-classification-cjhtz3vfnhjbthfidjw3zw.streamlit.app/
 
 ---
 
